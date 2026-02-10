@@ -10,6 +10,11 @@ public class Main {
         System.out.println("product.equals(product2) = " + product.equals(product2));
         System.out.println("product2.equals(product3) = " + product2.equals(product3));
         System.out.println("product3.equals(product4) = " + product3.equals(product4));
+
+        System.out.println(product);
+        System.out.println(product2);
+        System.out.println(product3);
+        System.out.println(product4);
         System.out.println("_________________________");
 
         Product[] products = {product, product2, product3, product4};
@@ -19,5 +24,9 @@ public class Main {
         Order order3 = new Order("Клиент1", products2);
         System.out.println(order.equals(order2));
         System.out.println(order.equals(order3));
+
+        System.out.println(order);
+        System.out.println(order2);
+        System.out.println(order3);
     }
 }
